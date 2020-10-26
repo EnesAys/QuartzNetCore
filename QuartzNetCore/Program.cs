@@ -6,7 +6,9 @@ namespace QuartzNetCore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SchedulerHelper.SchedulerSetup();
+
+            Console.ReadLine();
         }
     }
 }
